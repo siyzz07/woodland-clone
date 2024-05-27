@@ -1,0 +1,600 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.instructin{
+    width: 100%;
+    height: 23px;
+    background: #000;
+}
+
+.instructin-para
+{
+   color: white;
+    margin-top: 0px;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 3px;
+}
+.top-signin{
+    width: 100%;
+    height: 37px;
+    background:#3b6f44;
+    display: flex;
+    text-align: right;
+}
+
+
+ .top-signin-in
+{
+    
+   margin-left: 1112px;
+   display: flex;
+   margin-top: 2px;
+} 
+
+/* ......................... */
+
+.navebar
+{
+    width: 100%;
+    height: 64px;
+    display: flex;
+    /* background-color: aquamarine; */
+
+}
+
+.navbar-left
+{
+    width: 19%;
+   /* background: #856565; */
+}
+.navbar-center
+{
+    width: 27%;
+  /* background: #afe952; */
+   
+ 
+   text-decoration: none;
+
+    
+}
+
+.navbar-right
+{
+    width: 54%;
+   /* background: #da399c; */
+}
+
+.nav-dd
+{
+    margin-left: -16px;
+    margin-top: 40px;
+    font-size: 14px;
+    font-family:sans-serif;
+    text-decoration: none;
+    display: flex;
+    font-weight: 700;
+    color: #3b6f44;
+    cursor: pointer;
+
+}
+.hover{
+    width: 62px;
+    height: 31px;
+    background: #000;
+   
+
+}
+.hover:hover{
+    
+    background: #866161;
+}
+
+
+
+.Search
+{
+   
+
+    height: 35px;
+    width: 250px;
+    margin-left: 400px;
+    margin-top: 12px;
+    border-radius: 5px;
+
+
+}
+
+.Search-btn{
+   
+    height: 35px;
+    width: 250px;
+    margin-left: 20px;
+}
+
+.header-image1
+{
+    width: 378px;
+    height: 447px;
+    padding-right: 15px;
+    filter: brightness(90%);
+
+}
+/* ............................ */
+
+.tttt
+{
+    display: flex;
+    scroll-snap-type: mandatory;
+    overflow-x: auto;
+    overflow-y: auto;
+    overflow: hidden;
+}
+
+.image1-id
+{
+    background-image: url(hero_banner_4.webp);
+    width: 1519px;
+    height: 590px;
+    background-size: cover;
+}
+.image2-id
+{
+    background-image: url(ttttttttttt.webp);
+    width:1519px;
+    height: 590px;
+    background-size: cover;
+}
+.image3-id
+{
+    background-image: url(zzz.webp);
+    width:1519px;
+    height: 590px;
+    background-size: cover;
+}
+
+.nav-barr-right{
+    
+    padding-top: 248px;
+    float: right;
+}
+
+.nav-barr-left
+{
+  float: left;
+  padding-top: 248px;
+
+}
+
+/* ...........1st slide.......... */
+.images
+{
+    padding-left: 179px;
+    padding-top: 28px;
+    padding-bottom: 48px;
+    display: flex;
+
+}
+
+.images-para
+{
+    font-size: 30px;
+    font-weight: 100px;
+    font-family: sans-serif;
+    margin-top: -119px;
+    padding-left: 132px;
+    color: white;
+    filter: brightness(100%);
+
+}
+
+
+
+.shop-now-btn
+{
+    width: 120px;
+    height: 46px;
+    background: transparent;
+    border-width: 4px;
+    color: white;
+    /* border-color: white; */
+    border: 3px solid white;
+    margin-left: 124px;
+    margin-top: -18px;
+    position: absolute;
+    cursor: pointer;
+}
+
+/* <!-- .............5 colun image.......... --> */
+
+.image3
+{
+    background-image: url("wdl_shoe_banner.webp");
+    width:100%;
+    height: 486px;
+   background-size: cover;
+    margin-top: 70px;
+    
+    
+}
+
+.green-btn
+{
+    font-weight: bolder;
+    background: #0c5423;
+    width: 118px;
+    height: 42px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* <!-- .................image with shope now btn....... --> */
+
+
+
+
+.slide2
+{
+    
+    padding-top: 14px;
+    margin-left: 30px;
+    
+}
+
+
+.slide-btn
+{
+    font-weight: bolder;
+    background: #0c5423;
+    width: 118px;
+    height: 23px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-left: 9px;
+    margin-top: 277px;
+}
+
+
+.slide11-img
+{
+    width:302px;
+    height:312px;
+    background-size: cover;
+    filter: brightness(0.90);
+    border: none;
+    margin-top: 26px;
+    
+    
+
+}
+
+.slide-slide1::-webkit-scrollbar
+{
+    display: none;
+}
+
+
+
+
+
+
+
+
+/* <!-- .................slide image1.......... --> */
+
+
+.two-img-div
+{
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+    
+}
+
+.two-image
+{
+    width:757px;
+    height: 482px;
+    filter: brightness(90%);
+}
+
+/* <!-- ................2 flex image........ --> */
+
+.four-images
+{
+    width: 268px;
+    padding-left: 18px;
+    height: auto;
+}
+
+.four-image-h1
+{
+    font-weight: bold;
+    font-size: 26px;
+    font-family: sans-serif;
+    color: #3b6f44;
+    margin-top: 6px;
+    position: absolute;
+}
+
+
+
+/* <!-- ..................four image flux.l̥  --> */
+.image4
+{
+    background-image: url("woodsport_banner.webp");
+    width:100%;
+    height: 486px;
+   
+    margin-top: 70px;
+}
+
+
+/* ..........2nd image and shopenow.... */
+
+
+
+
+
+
+
+
+
+/* ...................2nd slide....... */
+.flux-three1
+{
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+}
+.flux-three
+{
+   
+    width:33%;
+}
+
+.shop-now-btn2{
+
+    width: 120px;
+    height: 46px;
+    background: transparent;
+    border-width: 4px;
+    color: white;
+    border: 3px solid white;
+    margin-left: 124px;
+    margin-top: -18px;
+    
+}
+
+
+
+/* <!-- ..................flux three image............ --> */
+.para-div
+{
+    width: 100%;
+    height: 140px;
+    /* background: #d59d9d; */
+}
+
+
+/* ...........para */
+
+.five-images
+{
+    width: 209px;
+    height: 217px;
+    padding-left: 15px;
+}
+
+/* .............5image  */
+
+.last-2-image
+{
+    display: flex;
+}
+.img-2i{
+    width:553px;
+    height: 363px;
+    margin-left: 193px;
+    filter: brightness(75%);
+}
+
+.img-22i
+{
+    width:553px ;
+    height: 363px;
+    filter: brightness(80%);
+}
+
+.img-2i-para
+{
+    color: #ffffff;
+    font-size: 30;
+    font-family: sans-serif;
+    position: absolute;
+    
+}
+
+.img-2i-pra2
+{
+    color: #ffffff;
+    position: absolute;
+    font-family: sans-serif;
+    line-height: 28px;
+
+}
+
+.green-btn
+{
+    font-weight: bolder;
+    background: #0c5423;
+    width: 118px;
+    height: 42px;
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    position: absolute;
+}
+
+/* :last-child............... */
+
+.footer-main
+{
+    background:  #0c5423;
+    width: 100%;
+    height: 595px;
+    margin-top: 37px;
+}
+
+.scetion1
+{
+    width: 100%;
+    height: 106px;
+    /* background: #d79f9f; */
+}
+
+.scetion2
+{
+    width: 100%;
+    height: 337px;
+    padding-top: 26px;
+    /* background: #ce5757; */
+    display: flex;
+}
+
+.scetion3
+{
+    width: 100%;
+    height: 47px;
+    /* background: #dfbb60; */
+    display: flex;
+    
+}
+
+.scetion4
+{
+    width: 100%;
+    height: 57px;
+    display: flex;
+    /* background: #8682f5; */
+}
+
+
+
+.footer-div-headding
+{
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
+    color: white;
+    padding-top: 11px;
+}
+
+.section2-div1  dd 
+{
+    color: #ffffff;
+    font-family:sans-serif;
+    line-height: 31px;
+    font-size: 17px;
+    font-weight: lighter;
+    
+   
+}
+
+
+
+.section2-div2  dd
+{
+    color: #ffffff;
+    font-family:sans-serif;
+    /* line-height: 31px; */
+    font-size: 17px;
+    font-weight: lighter;
+    
+   
+}
+
+.email {
+    width: 236px;
+    height: 46px;
+    border: none;
+}
+
+.email-btn
+{
+    width: 89px;
+    height: 32px;
+    position: absolute;
+    padding-top: 47px;
+    padding-left: -14px;
+    border: none;
+    background: #ffffff;
+
+    
+}
+
+.email-btn:hover
+{
+    direction: none;
+}
+
+
+/* .....................fotter,s big div */
+
+.last-icons
+{
+    padding-left: 61px;
+    padding-top: 9px;
+    
+}
+
+.hr1
+{
+    width: 1062px;
+    height: 1px;
+    margin-top: 23px;
+    background:#0e4a21;
+ 
+}
+.hr11{
+    width: 0.1%; 
+    height: 325px;
+    background:#0e4a21;
+}
+
+
+.section4-left  dd 
+{
+    
+    color: #ffffff;
+    font-family:sans-serif;
+    line-height: 31px;
+    font-size: 15px;
+    font-weight: lighter;
+    cursor: pointer;
+    
+   
+}
+
+.section4-right
+{
+    
+    color: #ffffff;
+    font-family:sans-serif;
+    line-height: 31px;
+    font-size: 15px;
+    font-weight: lighter;
+   
+    padding-left: 292px;
+    
+   
+}
+
+/* ..................................... */
+
+
